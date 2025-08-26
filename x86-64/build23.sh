@@ -66,6 +66,7 @@ PACKAGES="$PACKAGES luci-app-zerotier luci-i18n-zerotier-zh-cn"
 PACKAGES="$PACKAGES luci-app-wol luci-i18n-wol-zh-cn"
 PACKAGES="$PACKAGES luci-app-vsftpd luci-i18n-vsftpd-zh-cn"
 PACKAGES="$PACKAGES luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn"
+PACKAGES="$PACKAGES luci-app-fileassistant"
 
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
