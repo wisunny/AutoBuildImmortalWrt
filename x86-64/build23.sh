@@ -59,6 +59,14 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-vlmcsd luci-i18n-vlmcsd-zh-cn"
+PACKAGES="$PACKAGES luci-app-aria2 luci-i18n-aria2-zh-cn"
+PACKAGES="$PACKAGES luci-app-zerotier luci-i18n-zerotier-zh-cn"
+PACKAGES="$PACKAGES luci-app-wol luci-i18n-wol-zh-cn"
+PACKAGES="$PACKAGES luci-app-vsftpd luci-i18n-vsftpd-zh-cn"
+PACKAGES="$PACKAGES luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn"
+
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
